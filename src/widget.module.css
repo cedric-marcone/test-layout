@@ -1,0 +1,43 @@
+.backdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2147483640;
+}
+.widget {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: white;
+}
+.dialog {
+  height: 600px;
+  max-height: 100vh;
+  flex: 1 1 auto;
+  max-width: 1080px;
+  min-width: 320px;
+
+  border-radius: 6px;
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.5);
+}
+.bar {
+  text-align: center;
+  padding: 10px;
+  background-color: honeydew;
+}
+.viewport {
+  flex: 1 1 auto;
+  position: relative;
+}
+
+@media (max-width: 600px) {
+  .dialog {
+    height: 100vh;
+  }
+}

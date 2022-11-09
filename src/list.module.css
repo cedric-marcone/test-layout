@@ -1,0 +1,15 @@
+.outer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 200px);
+  gap: 10px;
+  padding: 10px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  background-color: antiquewhite;
+}

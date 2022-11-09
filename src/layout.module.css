@@ -1,0 +1,30 @@
+.outer {
+  display: flex;
+  position: relative;
+  background-color: lightblue;
+}
+.outer.dialog {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: auto;
+}
+.list {
+  flex: 6;
+}
+.map {
+  flex: 4;
+  display: flex;
+}
+.map.dialog {
+  position: sticky;
+  top: 0;
+}
+
+@media (max-width: 600px) {
+  .outer {
+    display: block;
+  }
+}

@@ -1,0 +1,15 @@
+.outer {
+  background-color: beige;
+  max-height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+
+@media (max-width: 600px) {
+  .outer {
+    position: absolute;
+    top: 100%;
+    min-height: 300px;
+  }
+}
