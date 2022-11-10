@@ -38,19 +38,22 @@
 }
 
 .narrow {
-  min-height: 300px;
-}
-.narrow.cover {
-  position: absolute;
-  top: 60px;
-  left: 0;
+  height: 100vh;
+  max-height: -webkit-fill-available;
 }
 .narrow.dialog {
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
 }
 .narrow.dialog .dragBar {
   display: flex;
+}
+
+.buttonBar {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
 }

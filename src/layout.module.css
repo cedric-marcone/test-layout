@@ -25,3 +25,6 @@
   position: sticky;
   top: 0;
 }
+.narrow .map.dialog {
+  position: static;
+}

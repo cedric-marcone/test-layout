@@ -10,20 +10,22 @@ type Props = {
 };
 
 export default function Layout({ dialog = false }: Props) {
-  const [cover, setCover] = React.useState(false);
+  const [, setCover] = React.useState(false);
   const outerRef = React.useRef<HTMLDivElement>(null);
   const mapRef = React.useRef<HTMLDivElement>(null);
-  // const listRef = React.useRef<HTMLDivElement>(null);
-
+  const listRef = React.useRef<HTMLDivElement>(null);
   const outerSize = useSize(outerRef);
   const mapSize = useSize(mapRef);
-  // const listSize = useSize(listRef);
 
   const [width] = outerSize;
   const narrow = width < 600;
 
-  const toggleMap = () => {
-    setCover((cover) => !cover);
+  const toggleMap = (cover: boolean) => () => {
+    setCover(() => {
+      const target = cover ? mapRef : listRef;
+      target.current?.scrollIntoView();
+      return cover;
+    });
   };
 
   const outerClasses = classNames(css.outer, {
@@ -36,8 +38,7 @@ export default function Layout({ dialog = false }: Props) {
 
   return (
     <div className={outerClasses} ref={outerRef}>
-      {/* <div className={css.list} ref={listRef}> */}
-      <div className={css.list}>
+      <div className={css.list} ref={listRef}>
         <List narrow={narrow} dialog={dialog} toggleMap={toggleMap} />
       </div>
       <div className={mapClasses}>
@@ -45,8 +46,8 @@ export default function Layout({ dialog = false }: Props) {
           narrow={narrow}
           dialog={dialog}
           size={mapSize}
-          cover={cover}
           ref={mapRef}
+          toggleMap={toggleMap}
         />
       </div>
     </div>

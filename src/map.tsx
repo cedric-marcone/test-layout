@@ -7,17 +7,17 @@ import css from "./map.module.css";
 type Props = {
   narrow: boolean;
   dialog: boolean;
-  cover: boolean;
   size: [number, number];
+  toggleMap: (cover: boolean) => () => void;
 };
 
 const Map = React.forwardRef(
   (
-    { narrow, dialog, cover, size: [width, height] }: Props,
+    { narrow, dialog, size: [width, height], toggleMap }: Props,
     ref: React.ForwardedRef<HTMLDivElement>
   ) => {
     const appMode = dialog && narrow;
-    const bottom = height - 75;
+    const bottom = height - 150;
     const top = 0;
 
     const [{ y }, api] = useSpring(() => {
@@ -44,7 +44,6 @@ const Map = React.forwardRef(
     const outerClasses = classNames(css.outer, {
       [css.dialog]: dialog,
       [css.narrow]: narrow,
-      [css.cover]: cover,
     });
     return (
       <animated.div className={outerClasses} style={{ y }} ref={ref}>
@@ -52,6 +51,11 @@ const Map = React.forwardRef(
           <div className={css.drag} />
         </div>
         <div className={css.map}>
+          {narrow && !dialog && (
+            <div className={css.buttonBar}>
+              <button onClick={toggleMap(false)}>Voir la liste</button>
+            </div>
+          )}
           <iframe
             src="https://umap.openstreetmap.fr/fr/map/carte-sans-nom_831249#15/45.505/6.5"
             title="map"

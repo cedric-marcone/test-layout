@@ -4,7 +4,7 @@ import css from "./list.module.css";
 type Props = {
   dialog: boolean;
   narrow: boolean;
-  toggleMap: () => void;
+  toggleMap: (cover: boolean) => () => void;
 };
 
 export default function List({ dialog, toggleMap, narrow }: Props) {
@@ -18,7 +18,7 @@ export default function List({ dialog, toggleMap, narrow }: Props) {
     <div className={css.outer}>
       {narrow && !dialog && (
         <div className={css.buttonBar}>
-          <button onClick={toggleMap}>Voir la carte</button>
+          <button onClick={toggleMap(true)}>Voir la carte</button>
         </div>
       )}
       <div className={css.list}>
