@@ -1,8 +1,10 @@
 .outer {
   --width: 220px;
   --height: 240px;
-  --gap: 30px;
+  --gap: 20px;
   --radius: 10px;
+}
+.list {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, var(--width));
@@ -18,4 +20,8 @@
   border-radius: var(--radius);
   background: #ffffff;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+.buttonBar {
+  padding-top: var(--gap);
+  text-align: center;
 }

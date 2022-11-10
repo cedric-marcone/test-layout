@@ -5,17 +5,19 @@ import { useSpring, animated } from "@react-spring/web";
 import css from "./map.module.css";
 
 type Props = {
-  dialog?: boolean;
+  dialog: boolean;
+  cover: boolean;
   size: [number, number];
   widgetSize: [number, number];
 };
 
 const Map = React.forwardRef(
   (
-    { dialog = false, size: [width, height], widgetSize: [widgetWidth] }: Props,
+    { dialog, cover, size: [width, height], widgetSize: [widgetWidth] }: Props,
     ref: React.ForwardedRef<HTMLDivElement>
   ) => {
-    const appMode = dialog && widgetWidth < 600;
+    const narrow = widgetWidth < 600;
+    const appMode = dialog && narrow;
     const bottom = height - 75;
     const top = 0;
 
@@ -42,7 +44,8 @@ const Map = React.forwardRef(
 
     const outerClasses = classNames(css.outer, {
       [css.dialog]: dialog,
-      [css.narrow]: widgetWidth < 600,
+      [css.narrow]: narrow,
+      [css.cover]: cover,
     });
     return (
       <animated.div className={outerClasses} style={{ y }} ref={ref}>
@@ -56,7 +59,7 @@ const Map = React.forwardRef(
             width={width}
             height={height}
             frameBorder="0"
-          ></iframe>
+          />
         </div>
       </animated.div>
     );

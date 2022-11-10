@@ -10,6 +10,7 @@ type Props = {
 };
 
 export default function Layout({ dialog = false }: Props) {
+  const [cover, setCover] = React.useState(false);
   const outerRef = React.useRef<HTMLDivElement>(null);
   const listRef = React.useRef<HTMLDivElement>(null);
   const mapRef = React.useRef<HTMLDivElement>(null);
@@ -20,6 +21,10 @@ export default function Layout({ dialog = false }: Props) {
 
   const [width] = outerSize;
   const narrow = width < 600;
+
+  const toggleMap = () => {
+    setCover((cover) => !cover);
+  };
 
   const outerClasses = classNames(css.outer, {
     [css.dialog]: dialog,
@@ -32,13 +37,14 @@ export default function Layout({ dialog = false }: Props) {
   return (
     <div className={outerClasses} ref={outerRef}>
       <div className={css.list} ref={listRef}>
-        <List />
+        <List dialog={dialog} widgetSize={outerSize} toggleMap={toggleMap} />
       </div>
       <div className={mapClasses}>
         <Map
           dialog={dialog}
           widgetSize={outerSize}
           size={mapSize}
+          cover={cover}
           ref={mapRef}
         />
       </div>
