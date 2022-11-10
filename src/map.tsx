@@ -20,19 +20,19 @@ const Map = React.forwardRef(
     const top = 0;
 
     const [{ y }, api] = useSpring(() => {
-      return { y: 0 };
+      return { y: 0, config: { mass: 0.5, friction: 20 } };
     });
 
     React.useEffect(() => {
       api.set({ y: appMode ? bottom : top });
-    }, [api, bottom, appMode]);
+    }, [api, appMode, bottom]);
 
     const bind = useDrag((state) => {
       const [, my] = state.movement;
       const [, iy] = state.initial;
       const y = iy + my;
       if (state.tap) {
-        return api.start({ y: height / 2 ? bottom : top });
+        return api.start({ y: y <= height / 2 ? bottom : top });
       }
       if (state.down) {
         return api.start({ y });
