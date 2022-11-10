@@ -18,8 +18,17 @@ export default function Layout({ dialog = false }: Props) {
   const listSize = useSize(listRef);
   const mapSize = useSize(mapRef);
 
-  const outerClasses = classNames(css.outer, { [css.dialog]: dialog });
-  const mapClasses = classNames(css.map, { [css.dialog]: dialog });
+  const [width] = outerSize;
+  const narrow = width < 600;
+
+  const outerClasses = classNames(css.outer, {
+    [css.dialog]: dialog,
+    [css.narrow]: narrow,
+  });
+  const mapClasses = classNames(css.map, {
+    [css.dialog]: dialog,
+  });
+
   return (
     <div className={outerClasses} ref={outerRef}>
       <div className={css.list} ref={listRef}>
@@ -28,8 +37,8 @@ export default function Layout({ dialog = false }: Props) {
       <div className={mapClasses}>
         <Map
           dialog={dialog}
-          size={mapSize}
           widgetSize={outerSize}
+          size={mapSize}
           ref={mapRef}
         />
       </div>

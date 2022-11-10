@@ -12,15 +12,15 @@ type Props = {
 
 const Map = React.forwardRef(
   (
-    { dialog = false, size: [, height], widgetSize: [width] }: Props,
+    { dialog = false, size: [width, height], widgetSize: [widgetWidth] }: Props,
     ref: React.ForwardedRef<HTMLDivElement>
   ) => {
-    const appMode = dialog && width < 600;
+    const appMode = dialog && widgetWidth < 600;
     const bottom = height - 75;
     const top = 0;
 
     const [{ y }, api] = useSpring(() => {
-      return { y: 0, config: { mass: 0.5, friction: 20 } };
+      return { y: 0, config: { mass: 0.1, friction: 10 } };
     });
 
     React.useEffect(() => {
@@ -34,19 +34,30 @@ const Map = React.forwardRef(
       if (state.tap) {
         return api.start({ y: y <= height / 2 ? bottom : top });
       }
-      if (state.down) {
+      if (state.active) {
         return api.start({ y });
       }
       return api.start({ y: y > height / 2 ? bottom : top });
     });
 
-    const outerClasses = classNames(css.outer, { [css.dialog]: dialog });
+    const outerClasses = classNames(css.outer, {
+      [css.dialog]: dialog,
+      [css.narrow]: widgetWidth < 600,
+    });
     return (
       <animated.div className={outerClasses} style={{ y }} ref={ref}>
         <div className={css.dragBar} {...bind()}>
           <div className={css.drag} />
         </div>
-        <div className={css.map}>Map</div>
+        <div className={css.map}>
+          <iframe
+            src="https://umap.openstreetmap.fr/fr/map/carte-sans-nom_831249#15/45.505/6.5"
+            title="map"
+            width={width}
+            height={height}
+            frameBorder="0"
+          ></iframe>
+        </div>
       </animated.div>
     );
   }

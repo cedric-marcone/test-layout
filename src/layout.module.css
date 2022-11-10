@@ -3,6 +3,9 @@
   position: relative;
   user-select: none;
 }
+.narrow {
+  display: block;
+}
 .outer.dialog {
   position: absolute;
   left: 0;
@@ -21,10 +24,4 @@
 .map.dialog {
   position: sticky;
   top: 0;
-}
-
-@media (max-width: 600px) {
-  .outer {
-    display: block;
-  }
 }
