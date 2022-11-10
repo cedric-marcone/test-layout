@@ -10,40 +10,34 @@ type Props = {
   widgetSize: [number, number];
 };
 
-const BAR_TOP = 75;
-const BAR_BOTTOM = 100;
-
 const Map = React.forwardRef(
   (
     { dialog = false, size: [, height], widgetSize: [width] }: Props,
-    ref: any
+    ref: React.ForwardedRef<HTMLDivElement>
   ) => {
-    const [{ y }, api] = useSpring(() => ({ y: 0 }));
+    const appMode = dialog && width < 600;
+    const bottom = height - 75;
+    const top = 0;
+
+    const [{ y }, api] = useSpring(() => {
+      return { y: 0 };
+    });
 
     React.useEffect(() => {
-      const appMode = dialog && width < 600;
-      api.set({ y: appMode ? height - BAR_TOP : 0 });
-    }, [api, dialog, width, height]);
+      api.set({ y: appMode ? bottom : top });
+    }, [api, bottom, appMode]);
 
     const bind = useDrag((state) => {
       const [, my] = state.movement;
       const [, iy] = state.initial;
-      const [, dy] = state.offset;
-
       const y = iy + my;
-      const start = height - BAR_TOP;
-      const distance = Math.abs(dy);
-      const upward = dy > 0;
-
+      if (state.tap) {
+        return api.start({ y: height / 2 ? bottom : top });
+      }
       if (state.down) {
         return api.start({ y });
       }
-      if (state.tap) {
-        return y < BAR_BOTTOM ? api.start({ y: start }) : api.start({ y: 0 });
-      }
-      return distance > height / 8 && upward
-        ? api.start({ y: start })
-        : api.start({ y: 0 });
+      return api.start({ y: y > height / 2 ? bottom : top });
     });
 
     const outerClasses = classNames(css.outer, { [css.dialog]: dialog });
