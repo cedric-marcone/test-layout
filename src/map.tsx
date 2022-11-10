@@ -5,18 +5,17 @@ import { useSpring, animated } from "@react-spring/web";
 import css from "./map.module.css";
 
 type Props = {
+  narrow: boolean;
   dialog: boolean;
   cover: boolean;
   size: [number, number];
-  widgetSize: [number, number];
 };
 
 const Map = React.forwardRef(
   (
-    { dialog, cover, size: [width, height], widgetSize: [widgetWidth] }: Props,
+    { narrow, dialog, cover, size: [width, height] }: Props,
     ref: React.ForwardedRef<HTMLDivElement>
   ) => {
-    const narrow = widgetWidth < 600;
     const appMode = dialog && narrow;
     const bottom = height - 75;
     const top = 0;

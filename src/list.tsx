@@ -2,23 +2,17 @@ import * as React from "react";
 import css from "./list.module.css";
 
 type Props = {
-  dialog?: boolean;
-  widgetSize: [number, number];
+  dialog: boolean;
+  narrow: boolean;
   toggleMap: () => void;
 };
 
-export default function List({
-  dialog = false,
-  toggleMap,
-  widgetSize: [widgetWidth],
-}: Props) {
+export default function List({ dialog, toggleMap, narrow }: Props) {
   const [merchants, setMerchants] = React.useState<number[]>([]);
 
   React.useEffect(() => {
     setMerchants(fetchMerchants());
   }, []);
-
-  const narrow = widgetWidth < 600;
 
   return (
     <div className={css.outer}>

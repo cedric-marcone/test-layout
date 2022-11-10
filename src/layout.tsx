@@ -12,12 +12,12 @@ type Props = {
 export default function Layout({ dialog = false }: Props) {
   const [cover, setCover] = React.useState(false);
   const outerRef = React.useRef<HTMLDivElement>(null);
-  const listRef = React.useRef<HTMLDivElement>(null);
   const mapRef = React.useRef<HTMLDivElement>(null);
+  // const listRef = React.useRef<HTMLDivElement>(null);
 
   const outerSize = useSize(outerRef);
-  const listSize = useSize(listRef);
   const mapSize = useSize(mapRef);
+  // const listSize = useSize(listRef);
 
   const [width] = outerSize;
   const narrow = width < 600;
@@ -36,13 +36,14 @@ export default function Layout({ dialog = false }: Props) {
 
   return (
     <div className={outerClasses} ref={outerRef}>
-      <div className={css.list} ref={listRef}>
-        <List dialog={dialog} widgetSize={outerSize} toggleMap={toggleMap} />
+      {/* <div className={css.list} ref={listRef}> */}
+      <div className={css.list}>
+        <List narrow={narrow} dialog={dialog} toggleMap={toggleMap} />
       </div>
       <div className={mapClasses}>
         <Map
+          narrow={narrow}
           dialog={dialog}
-          widgetSize={outerSize}
           size={mapSize}
           cover={cover}
           ref={mapRef}
