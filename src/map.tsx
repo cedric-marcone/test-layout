@@ -36,7 +36,7 @@ const Map = React.forwardRef(
         return api.start({ y: y <= height / 2 ? bottom : top });
       }
       if (state.active) {
-        return api.start({ y });
+        return api.start({ y: y < 0 ? 0 : y });
       }
       return api.start({ y: y > height / 2 ? bottom : top });
     });
