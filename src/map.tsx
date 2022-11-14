@@ -17,7 +17,7 @@ const Map = React.forwardRef(
     ref: React.ForwardedRef<HTMLDivElement>
   ) => {
     const appMode = dialog && narrow;
-    const bottom = height - 150;
+    const bottom = height - 75;
     const top = 0;
 
     const [{ y }, api] = useSpring(() => {
