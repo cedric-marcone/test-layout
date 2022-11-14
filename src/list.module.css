@@ -10,6 +10,7 @@
   grid-template-columns: repeat(auto-fit, var(--width));
   gap: var(--gap);
   padding: var(--gap);
+  contain: layout paint style;
 }
 .card {
   display: flex;

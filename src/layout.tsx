@@ -18,7 +18,7 @@ export default function Layout({ dialog = false }: Props) {
   const mapSize = useSize(mapRef);
 
   const [width] = outerSize;
-  const narrow = width < 600;
+  const narrow = (dialog && width < 600) || (!dialog && width < 834);
 
   const toggleMap = (cover: boolean) => () => {
     setCover(() => {
