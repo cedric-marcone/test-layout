@@ -21,7 +21,7 @@ const Map = React.forwardRef(
     const top = 0;
 
     const [{ y }, api] = useSpring(() => {
-      return { y: 0, config: { mass: 0.1, friction: 10 } };
+      return { y: 0, config: { mass: 0.5, friction: 17 } };
     });
 
     React.useEffect(() => {
