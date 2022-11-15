@@ -11,7 +11,7 @@ export default function Merchant({ index }: Props) {
   return (
     <div className={css.outer} onClick={log}>
       <div className={css.image}>
-        <img src="http://placekitten.com/300/200" loading="lazy" alt="" />
+        <img src={`/images/${index}.jpg`} loading="lazy" alt="" />
       </div>
       <div className={css.content}>
         {index % 5 === 0 ? (

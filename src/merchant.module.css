@@ -10,6 +10,7 @@
 .image {
   align-self: stretch;
   aspect-ratio: 3/2;
+  overflow: hidden;
 }
 .image > img {
   object-fit: cover;
