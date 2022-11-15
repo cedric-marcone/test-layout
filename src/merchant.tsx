@@ -13,7 +13,19 @@ export default function Merchant({ index }: Props) {
       <div className={css.image}>
         <img src="http://placekitten.com/300/200" loading="lazy" alt="" />
       </div>
-      <div className={css.content}>{index}</div>
+      <div className={css.content}>
+        {index % 5 === 0 ? (
+          <>
+            <div>{index}</div>
+            <div>coucou</div>
+            <div>coucou</div>
+            <div>coucou</div>
+            <div>coucou</div>
+          </>
+        ) : (
+          index
+        )}
+      </div>
     </div>
   );
 }

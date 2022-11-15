@@ -1,7 +1,6 @@
 .outer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   border-radius: var(--radius);
   background: #ffffff;
@@ -21,5 +20,6 @@
 }
 .content {
   display: flex;
+  flex-direction: column;
   padding: 10px;
 }
