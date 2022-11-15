@@ -50,12 +50,12 @@ const Map = React.forwardRef(
         <div className={css.dragBar} {...bind()}>
           <div className={css.drag} />
         </div>
+        {narrow && !dialog && (
+          <div className={css.buttonBar}>
+            <button onClick={toggleMap(false)}>Voir la liste</button>
+          </div>
+        )}
         <div className={css.map}>
-          {narrow && !dialog && (
-            <div className={css.buttonBar}>
-              <button onClick={toggleMap(false)}>Voir la liste</button>
-            </div>
-          )}
           <iframe
             src="https://umap.openstreetmap.fr/fr/map/carte-sans-nom_831249#15/45.505/6.5"
             title="map"

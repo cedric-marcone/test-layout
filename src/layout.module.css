@@ -15,10 +15,10 @@
   overflow: auto;
 }
 .list {
-  flex: 6;
+  flex: 3;
 }
 .map {
-  flex: 4;
+  flex: 2;
   display: flex;
 }
 .map.dialog {

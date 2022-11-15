@@ -3,26 +3,38 @@
   --height: 240px;
   --gap: 20px;
   --radius: 10px;
+
+  --grid-layout-gap: 20px;
+  --grid-column-count: 2;
+  --grid-item--min-width: 220px;
+
+  max-width: 800px;
+  margin: 0 auto;
 }
-.list {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, var(--width));
-  gap: var(--gap);
-  padding: var(--gap);
-  contain: layout paint style;
-}
-.card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: var(--width);
-  height: var(--height);
-  border-radius: var(--radius);
-  background: #ffffff;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
-}
+
 .buttonBar {
   padding-top: var(--gap);
   text-align: center;
+}
+
+.list {
+  display: grid;
+  justify-content: center;
+  contain: layout paint style;
+  padding: var(--gap);
+
+  /* grid-template-columns: repeat(auto-fit, var(--width)); */
+  /* gap: var(--gap); */
+
+  --gap-count: calc(var(--grid-column-count) - 1);
+  --total-gap-width: calc(var(--gap-count) * var(--grid-layout-gap));
+  --grid-item--max-width: calc(
+    (100% - var(--total-gap-width)) / var(--grid-column-count)
+  );
+
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(max(var(--grid-item--min-width), var(--grid-item--max-width)), 1fr)
+  );
+  gap: var(--grid-layout-gap);
 }

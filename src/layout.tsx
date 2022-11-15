@@ -7,9 +7,10 @@ import css from "./layout.module.css";
 
 type Props = {
   dialog?: boolean;
+  merchants: number[];
 };
 
-export default function Layout({ dialog = false }: Props) {
+export default function Layout({ dialog = false, merchants }: Props) {
   const [, setCover] = React.useState(false);
   const outerRef = React.useRef<HTMLDivElement>(null);
   const mapRef = React.useRef<HTMLDivElement>(null);
@@ -39,7 +40,12 @@ export default function Layout({ dialog = false }: Props) {
   return (
     <div className={outerClasses} ref={outerRef}>
       <div className={css.list} ref={listRef}>
-        <List narrow={narrow} dialog={dialog} toggleMap={toggleMap} />
+        <List
+          narrow={narrow}
+          dialog={dialog}
+          merchants={merchants}
+          toggleMap={toggleMap}
+        />
       </div>
       <div className={mapClasses}>
         <Map

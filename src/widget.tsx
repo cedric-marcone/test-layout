@@ -5,9 +5,16 @@ import css from "./widget.module.css";
 
 export default function Widget() {
   const [dialog, setDialog] = React.useState(true);
+  const [merchants, setMerchants] = React.useState<number[]>([]);
+
+  React.useEffect(() => {
+    setMerchants(loadMerchants());
+  }, []);
+
+  const toggleDialog = () => setDialog((dialog) => !dialog);
+
   const backdropClasses = classNames({ [css.backdrop]: dialog });
   const widgetClasses = classNames(css.widget, { [css.dialog]: dialog });
-  const toggleDialog = () => setDialog((dialog) => !dialog);
   return (
     <div className={backdropClasses}>
       <div className={widgetClasses}>
@@ -17,9 +24,17 @@ export default function Widget() {
           </button>
         </div>
         <div className={css.viewport}>
-          <Layout dialog={dialog} />
+          <Layout dialog={dialog} merchants={merchants} />
         </div>
       </div>
     </div>
   );
+}
+
+function loadMerchants() {
+  const merchants: number[] = [];
+  for (let i = 0; i < 37; i++) {
+    merchants.push(i);
+  }
+  return merchants;
 }
