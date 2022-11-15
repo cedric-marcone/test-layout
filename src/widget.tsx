@@ -4,7 +4,7 @@ import Layout from "./layout";
 import css from "./widget.module.css";
 
 export default function Widget() {
-  const [dialog, setDialog] = React.useState(true);
+  const [dialog, setDialog] = React.useState(false);
   const [merchants, setMerchants] = React.useState<number[]>([]);
 
   React.useEffect(() => {
