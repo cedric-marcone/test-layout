@@ -1,0 +1,701 @@
+{
+  "merchants": [
+    {
+      "id": 6020,
+      "code": "1195898",
+      "slug": "chalet-odalys-melusine",
+      "name": "Chalet Odalys Mélusine",
+      "image": "https://assets.msem.tech/lodging/images/18824-medium.jpg",
+      "location": [45.0895, 6.07947],
+      "taxonomy": {
+        "stars": 4,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6286,
+      "code": "2546073",
+      "slug": "residence-l-ours-blanc-maeva-particuliers",
+      "name": "Résidence L'Ours Blanc - Maeva Particuliers",
+      "image": "https://assets.msem.tech/lodging/images/20984-medium.jpg",
+      "location": [45.091, 6.06711],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "RESIDENCE",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6285,
+      "code": "2546080",
+      "slug": "residence-les-horizons-d-huez-maeva-particuliers",
+      "name": "Résidence Les Horizons d'Huez - Maeva Home",
+      "image": "https://assets.msem.tech/lodging/images/20977-medium.jpg",
+      "location": [45.086, 6.06778],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "RESIDENCE",
+        "category4": "PROFESSIONAL"
+      }
+    },
+    {
+      "id": 6287,
+      "code": "2546170",
+      "slug": "residence-les-bergers-maeva-particuliers",
+      "name": "Résidence Les Bergers - Maeva Particuliers",
+      "image": "https://assets.msem.tech/lodging/images/20994-medium.jpg",
+      "location": [45.0881, 6.0777],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "RESIDENCE",
+        "category4": "PROFESSIONAL"
+      }
+    },
+    {
+      "id": 6281,
+      "slug": "residence-les-melezes-maeva-particuliers",
+      "code": "2546510",
+      "name": "Résidence Les Mélèzes - Maeva Home",
+      "image": "https://assets.msem.tech/lodging/images/20960-medium.jpg",
+      "location": [45.0798, 6.05272],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "RESIDENCE",
+        "category4": "PROFESSIONAL",
+        "comforts": [963, 963, 10004, 10004]
+      }
+    },
+    {
+      "id": 6284,
+      "code": "2553675",
+      "name": "Studio 4 pers. quartier de l'Eclose - Maeva Particuliers",
+      "slug": "studio-4-pers-quartier-de-l-eclose-maeva-particuliers",
+      "image": "https://assets.msem.tech/lodging/images/20975-medium.jpg",
+      "location": [45.0876, 6.06739],
+      "taxonomy": {
+        "stars": 0,
+        "district": 8,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6282,
+      "code": "2553677",
+      "slug": "appartement-6-pers-vue-montagne-maeva-particuliers",
+      "name": "Appartement 6 pers. vue montagne - Maeva Particuliers",
+      "image": "https://assets.msem.tech/lodging/images/20973-medium.jpg",
+      "location": [45.0887, 6.06035],
+      "taxonomy": {
+        "stars": 0,
+        "district": 8,
+        "category": "LODGING",
+        "category2": "RESIDENCE",
+        "category4": "PROFESSIONAL"
+      }
+    },
+    {
+      "id": 6288,
+      "code": "2617890",
+      "slug": "studio-3-pers-vue-montagne-maeva-particuliers",
+      "name": "Studio 3 pers vue montagne - Maeva Particuliers",
+      "location": [45.0907, 6.06477],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6291,
+      "code": "2618181",
+      "slug": "appartement-a-l-alpe-d-huez-retour-skis-aux-pieds-maeva-particuliers",
+      "name": "Appartement à l'Alpe d'Huez retour skis aux pieds - Maeva Particuliers",
+      "location": [45.0887, 6.06035],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6323,
+      "code": "2618265",
+      "slug": "studio-4-pers-pied-des-pistes-maeva-particuliers-1",
+      "name": "Studio 4 pers. pied des pistes - Maeva Particuliers",
+      "location": [45.0909, 6.06754],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6289,
+      "code": "2619686",
+      "slug": "studio-5-pers-pied-des-pistes-maeva-particuliers",
+      "name": "Studio 5 pers pied des pistes - Maeva Particuliers",
+      "location": [45.0872, 6.06915],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6437,
+      "code": "4724378",
+      "slug": "residence-lagrange-l-alpenrose",
+      "name": "Résidence Lagrange L'Alpenrose ****",
+      "image": "https://assets.msem.tech/lodging/images/22094-medium.jpg",
+      "location": [45.0884, 6.07828],
+      "taxonomy": {
+        "stars": 4,
+        "category": "LODGING",
+        "category2": "RESIDENCE",
+        "category4": "PROFESSIONAL"
+      }
+    },
+    {
+      "id": 6411,
+      "code": "4724420",
+      "slug": "studio-4-personnes-avec-acces-direct-aux-pistes-maeva-particuliers",
+      "name": "Studio 4 personnes avec accès direct aux pistes - Maeva Particuliers",
+      "location": [45.0945, 6.06801],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6414,
+      "code": "4724441",
+      "slug": "residence-le-saint-laurent-maeva-particuliers",
+      "name": "Résidence Le Saint-Laurent - Maeva Particuliers",
+      "location": [45.093, 6.06076],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6440,
+      "code": "4724556",
+      "slug": "studio-design-ambiance-montagne-a-l-alpe-d-huez-maeva-particuliers",
+      "name": "Studio design ambiance montagne à l'Alpe d'Huez - Maeva Particuliers",
+      "location": [45.0905, 6.06436],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6632,
+      "code": "4724647",
+      "slug": "magnifique-appartement-a-l-alpe-d-huez-maeva-particuliers",
+      "name": "Magnifique appartement à l'Alpe d'Huez - Maeva Particuliers",
+      "location": [45.0903, 6.06427],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6631,
+      "code": "4724651",
+      "slug": "joli-studio-skis-aux-pieds-quartier-de-l-eclose-maeva-particuliers",
+      "name": "Joli studio skis aux pieds quartier de l'Eclose - Maeva Particuliers",
+      "location": [45.093, 6.06876],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6648,
+      "code": "4724717",
+      "slug": "superbe-appartement-retour-skis-aux-pieds-a-l-alpe-d-huez-maeva-particuliers",
+      "name": "Superbe appartement retour skis aux pieds à l'Alpe d'Huez - Maeva Particuliers",
+      "location": [45.0917, 6.05939],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 6421,
+      "code": "4724967",
+      "slug": "grand-appartement-a-300-m-des-pistes-maeva-particuliers",
+      "name": "Grand appartement à 300 m des pistes - Maeva Particuliers",
+      "image": "https://assets.msem.tech/lodging/images/22066-medium.jpg",
+      "location": [45.0917, 6.05938],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "INDIVIDUAL"
+      }
+    },
+    {
+      "id": 5965,
+      "code": "742792",
+      "slug": "residence-pierre-and-vacances-les-bergers",
+      "name": "Résidence Pierre & Vacances Les Bergers****",
+      "image": "https://assets.msem.tech/lodging/images/18212-medium.jpg",
+      "location": [45.0882, 6.07775],
+      "taxonomy": {
+        "stars": 4,
+        "category": "LODGING",
+        "category2": "RESIDENCE",
+        "category4": "PROFESSIONAL"
+      }
+    },
+    {
+      "id": 5968,
+      "code": "742975",
+      "slug": "residence-pierre-and-vacances-les-horizons-d-huez",
+      "name": "Résidence Pierre & Vacances Les Horizons d'Huez",
+      "image": "https://assets.msem.tech/lodging/images/18261-medium.jpg",
+      "location": [45.0863, 6.06848],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "RESIDENCE",
+        "category4": "PROFESSIONAL"
+      }
+    },
+    {
+      "id": 7474,
+      "code": "CR-125-eauvA",
+      "slug": "chalet-l-eau-vive-apt-a",
+      "name": "Chalet Eau Vive A - 4 Pièces - 10 personnes - 100m² - sud/ouest",
+      "image": "https://assets.msem.tech/lodging/images/33392-medium.jpg",
+      "location": [45.0965, 6.07152],
+      "taxonomy": {
+        "stars": 3,
+        "district": 7,
+        "nbRooms": 4,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT-IN-CHALET",
+        "category4": "INDIVIDUAL",
+        "services": [687, 687, 1115, 1115],
+        "comforts": [877, 922, 963, 877, 922, 963, 971, 971, 919, 919]
+      }
+    },
+    {
+      "id": 7475,
+      "code": "CR-125-eauvB",
+      "slug": "chalet-l-eau-vive-apt-b",
+      "name": "Chalet Eau Vive B - 4 Pièces - 10 personnes - 100m² -  sud/est",
+      "image": "https://assets.msem.tech/lodging/images/33400-medium.jpg",
+      "location": [45.0963, 6.07107],
+      "taxonomy": {
+        "stars": 3,
+        "district": 7,
+        "nbRooms": 4,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT-IN-CHALET",
+        "category4": "INDIVIDUAL",
+        "services": [687, 687, 1115, 1115],
+        "comforts": [877, 922, 963, 877, 922, 963, 971, 971, 919, 919]
+      }
+    },
+    {
+      "id": 7476,
+      "code": "CR-125-eauvC",
+      "slug": "chalet-l-eau-vive-apt-c",
+      "name": "Chalet Eau Vive C - 4 Pièces 6/8 personnes - 80m² - Sud",
+      "image": "https://assets.msem.tech/lodging/images/33412-medium.jpg",
+      "location": [45.0964, 6.07118],
+      "taxonomy": {
+        "stars": 3,
+        "district": 7,
+        "nbRooms": 4,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT-IN-CHALET",
+        "category4": "INDIVIDUAL",
+        "services": [687, 687, 1115, 1115],
+        "comforts": [922, 963, 922, 963, 919, 919]
+      }
+    },
+    {
+      "id": 7066,
+      "code": "CR-125-KANDAHAR36",
+      "slug": "kandahar-36",
+      "name": "Kandahar 36 - Studio + hall - 4 personnes - 31m² - Sud",
+      "image": "https://assets.msem.tech/lodging/images/6589359-medium.jpg",
+      "location": [45.0911, 6.07309],
+      "taxonomy": {
+        "stars": 2,
+        "district": 10,
+        "nbRooms": 1,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "PROFESSIONAL",
+        "comforts": [
+          922, 963, 922, 963, 971, 971, 10001, 10001, 5915, 5940, 5914, 915,
+          945, 915, 945, 6216, 10004, 10004, 6801, 6801
+        ],
+        "equipments": [972, 972, 624, 624, 741, 741],
+        "services": [1115, 1115, 5748]
+      }
+    },
+    {
+      "id": 7541,
+      "code": "HOT-125-02",
+      "slug": "hotel-les-bruyeres",
+      "name": "Hôtel les Bruyères",
+      "image": "https://assets.msem.tech/lodging/images/124388-medium.jpg",
+      "location": [45.0935, 6.06809],
+      "taxonomy": {
+        "stars": 3,
+        "category": "LODGING",
+        "category2": "HOTEL",
+        "category4": "PROFESSIONAL",
+        "comforts": [963, 963, 842, 971, 842, 971],
+        "services": [1115, 1115],
+        "equipments": [624, 624]
+      }
+    },
+    {
+      "id": 38961,
+      "code": "HOT-125-03",
+      "slug": "hotel-pop-alp-alpe-d-huez",
+      "name": "Hôtel PopAlp Alpe d'Huez",
+      "image": "https://assets.msem.tech/lodging/images/1036682-medium.jpg",
+      "location": [45.0906, 6.06494],
+      "taxonomy": {
+        "stars": 3,
+        "district": 12,
+        "category": "LODGING",
+        "category2": "HOTEL",
+        "category4": "PROFESSIONAL",
+        "services": [687, 687, 1025, 1025, 10000, 10000],
+        "comforts": [963, 963, 842, 971, 842, 971, 10001, 10001],
+        "equipments": [723, 723, 624, 624]
+      }
+    },
+    {
+      "id": 5525,
+      "code": "HOT-125-132878",
+      "slug": "eliova-le-chaix",
+      "name": "Eliova - Le Chaix",
+      "image": "https://assets.msem.tech/lodging/images/6557-medium.jpg",
+      "location": [45.0944, 6.07085],
+      "taxonomy": {
+        "stars": 2,
+        "district": 7,
+        "category": "LODGING",
+        "category2": "HOTEL",
+        "category4": "PROFESSIONAL",
+        "comforts": [963, 963, 842, 971, 842, 971],
+        "equipments": [972, 972, 624, 624]
+      }
+    },
+    {
+      "id": 5299,
+      "code": "HOT-125-132916",
+      "slug": "le-castillan",
+      "name": "Le Castillan",
+      "image": "https://assets.msem.tech/lodging/images/3519-medium.jpg",
+      "location": [45.092, 6.06294],
+      "taxonomy": {
+        "stars": 3,
+        "district": 12,
+        "category": "LODGING",
+        "category2": "HOTEL",
+        "category4": "PROFESSIONAL",
+        "equipments": [698, 698, 972, 972, 723, 723, 624, 1054, 624, 1054],
+        "comforts": [877, 963, 877, 963, 842, 971, 842, 971],
+        "services": [1115, 1115]
+      }
+    },
+    {
+      "id": 5499,
+      "code": "HOT-125-142000",
+      "slug": "au-chamois-d-or",
+      "name": "Au Chamois d'Or",
+      "image": "https://assets.msem.tech/lodging/images/5998-medium.jpg",
+      "location": [45.0972, 6.07083],
+      "taxonomy": {
+        "stars": 5,
+        "district": 7,
+        "category": "LODGING",
+        "category2": "HOTEL",
+        "category4": "PROFESSIONAL",
+        "equipments": [
+          698, 698, 972, 972, 723, 723, 624, 1054, 624, 1054, 957, 1057, 957,
+          1057, 1504, 1504
+        ],
+        "services": [687, 687, 1115, 1115],
+        "comforts": [877, 963, 877, 963, 842, 971, 842, 971]
+      }
+    },
+    {
+      "id": 5300,
+      "code": "HOT-125-142089",
+      "slug": "pic-blanc",
+      "name": "Pic Blanc",
+      "image": "https://assets.msem.tech/lodging/images/3529-medium.jpg",
+      "location": [45.0882, 6.07642],
+      "taxonomy": {
+        "stars": 4,
+        "district": 6,
+        "category": "LODGING",
+        "category2": "HOTEL",
+        "category4": "PROFESSIONAL",
+        "equipments": [
+          698, 698, 972, 972, 723, 723, 624, 624, 957, 1057, 1093, 1506, 957,
+          1057, 1093, 1506
+        ],
+        "services": [687, 687, 1115, 1115],
+        "comforts": [963, 963, 842, 971, 842, 971]
+      }
+    },
+    {
+      "id": 5301,
+      "code": "HOT-125-142092",
+      "slug": "grandes-rousses",
+      "name": "Hôtel Grandes Rousses",
+      "image": "https://assets.msem.tech/lodging/images/45862-medium.jpg",
+      "location": [45.0932, 6.06638],
+      "taxonomy": {
+        "stars": 4,
+        "district": 7,
+        "category": "LODGING",
+        "category2": "HOTEL",
+        "category4": "PROFESSIONAL",
+        "equipments": [
+          698, 698, 972, 972, 723, 723, 624, 624, 957, 1057, 1093, 1506, 957,
+          1057, 1093, 1506
+        ],
+        "services": [687, 687, 1115, 1115],
+        "comforts": [877, 963, 877, 963, 842, 971, 842, 971, 882, 882]
+      }
+    },
+    {
+      "id": 5302,
+      "code": "HOT-125-79088",
+      "slug": "royal-ours-blanc",
+      "name": "Royal Ours Blanc",
+      "image": "https://assets.msem.tech/lodging/images/3555-medium.jpg",
+      "location": [45.0906, 6.06804],
+      "taxonomy": {
+        "stars": 4,
+        "category": "LODGING",
+        "category2": "HOTEL",
+        "category4": "PROFESSIONAL",
+        "equipments": [
+          698, 698, 972, 972, 723, 723, 624, 624, 957, 1057, 1093, 1506, 957,
+          1057, 1093, 1506, 1504, 1507, 1504, 1507
+        ],
+        "services": [687, 687, 1115, 1115],
+        "comforts": [963, 963, 842, 971, 842, 971]
+      }
+    },
+    {
+      "id": 5992,
+      "code": "MM-125-004",
+      "slug": "chalet-l-ancolie",
+      "name": "Chalet l'Ancolie - 10 pièces - 340 m² - 10/15 personnes - sud ",
+      "image": "https://assets.msem.tech/lodging/images/18542-medium.jpg",
+      "location": [45.0808, 6.05734],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "CHALET",
+        "category4": "PROFESSIONAL",
+        "comforts": [922, 963, 922, 963, 842, 971, 842, 971, 919, 919]
+      }
+    },
+    {
+      "id": 5484,
+      "code": "MP-125-4733339",
+      "slug": "la-meije",
+      "name": "La Meije",
+      "image": "https://assets.msem.tech/lodging/images/6388-medium.jpg",
+      "location": [45.0941, 6.07002],
+      "taxonomy": {
+        "stars": 3,
+        "nbRooms": 5,
+        "category": "LODGING",
+        "category2": "MEUBLE",
+        "category3": "APT",
+        "category4": "PROFESSIONAL",
+        "equipments": [698, 698, 972, 972],
+        "services": [687, 687, 1115, 1115],
+        "comforts": [922, 963, 922, 963, 842, 971, 842, 971, 882, 882, 919, 919]
+      }
+    },
+    {
+      "id": 7534,
+      "code": "RES-125-79795",
+      "slug": "residence-odalys-le-christiania-1",
+      "name": "Résidence Odalys Le Christiania",
+      "image": "https://assets.msem.tech/lodging/images/33098-medium.jpg",
+      "location": [45.0882, 6.07875],
+      "taxonomy": {
+        "stars": 0,
+        "category": "LODGING",
+        "category2": "RESIDENCE",
+        "category4": "PROFESSIONAL",
+        "services": [687, 687],
+        "comforts": [922, 922],
+        "equipments": [624, 624]
+      }
+    }
+  ],
+  "dictionary": {
+    "category": {
+      "values": [{ "code": "LODGING", "name": "Hébergement" }]
+    },
+    "category2": {
+      "values": [
+        { "code": "RESIDENCE", "name": "Résidence" },
+        { "code": "HOTEL", "name": "Chambre d'hôtel" },
+        { "code": "MEUBLE", "name": "Meublé" }
+      ]
+    },
+    "category3": {
+      "values": [
+        { "code": "APT", "name": "Appartement" },
+        { "code": "APT-IN-CHALET", "name": "Appartement dans chalet" },
+        { "code": "CHALET", "name": "Chalet" }
+      ]
+    },
+    "category4": {
+      "values": [
+        { "code": "INDIVIDUAL", "name": "Particulier" },
+        { "code": "PROFESSIONAL", "name": "Professionel" }
+      ]
+    },
+    "equipments": {
+      "name": "Equipements",
+      "values": [
+        { "code": 698, "name": "Sauna" },
+        { "code": 972, "name": "Parking" },
+        { "code": 723, "name": "Terrasse" },
+        { "code": 624, "name": "Ascenseur" },
+        { "code": 1054, "name": "Hammam" },
+        { "code": 957, "name": "Bains à remous" },
+        { "code": 1057, "name": "Espace Spa" },
+        { "code": 1093, "name": "Piscine" },
+        { "code": 1506, "name": "Piscine couverte" },
+        { "code": 1504, "name": "Piscine chauffée" },
+        { "code": 1507, "name": "Piscine enfants" },
+        { "code": 741, "name": "Toilettes" }
+      ]
+    },
+    "comforts": {
+      "name": "Confort",
+      "values": [
+        { "code": 877, "name": "Cheminée / Poêle" },
+        { "code": 922, "name": "Lave vaisselle" },
+        { "code": 963, "name": "Télévision" },
+        { "code": 842, "name": "Accès Internet privatif Wifi" },
+        { "code": 971, "name": "Balcon" },
+        { "code": 882, "name": "Accès Internet gratuit" },
+        { "code": 919, "name": "Lave linge privatif" },
+        { "code": 10001, "name": "Exposition sud" },
+        { "code": 5915, "name": "Bouilloire" },
+        { "code": 5940, "name": "Machine à café" },
+        { "code": 5914, "name": "Cafetière" },
+        { "code": 915, "name": "Lavabos eau chaude" },
+        { "code": 945, "name": "Sanitaires chauffés" },
+        { "code": 6216, "name": "Couette" },
+        { "code": 10004, "name": "Pied des pistes" },
+        { "code": 6801, "name": "Grille-pain" }
+      ]
+    },
+    "services": {
+      "name": "Services",
+      "values": [
+        { "code": 687, "name": "Animaux acceptés" },
+        { "code": 1115, "name": "Accès Internet Wifi" },
+        { "code": 1025, "name": "Animaux avec supplément" },
+        { "code": 10000, "name": "Adapté aux enfants" },
+        { "code": 5748, "name": "Location saisonnière" }
+      ]
+    },
+    "spokenLanguages": {
+      "name": "Langues parlées",
+      "values": [
+        { "code": 1185, "name": "German" },
+        { "code": 1186, "name": "English" },
+        { "code": 1187, "name": "French" },
+        { "code": 1188, "name": "Italian" },
+        { "code": 1266, "name": "Dutch" },
+        { "code": 1310, "name": "Spanish" },
+        { "code": 1630, "name": "Portuguese" }
+      ]
+    },
+    "stars": {
+      "name": "Classement",
+      "values": [
+        { "code": 0, "name": "Non Classé" },
+        { "code": 2, "name": "2 étoiles" },
+        { "code": 3, "name": "3 étoiles" },
+        { "code": 4, "name": "4 étoiles" },
+        { "code": 5, "name": "5 étoiles" }
+      ]
+    },
+    "districts": {
+      "name": "Secteur",
+      "values": [
+        { "code": 6, "name": "Bergers" },
+        { "code": 7, "name": "Cognet" },
+        { "code": 8, "name": "Eclose" },
+        { "code": 10, "name": "Jeux" },
+        { "code": 12, "name": "Vieil Alpe" }
+      ]
+    },
+    "nbRooms": {
+      "name": "Nombre de pièces",
+      "values": [
+        { "code": 4, "name": "4 pièces" },
+        { "code": 9, "name": "9 pièces" }
+      ]
+    }
+  }
+}

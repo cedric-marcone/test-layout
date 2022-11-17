@@ -1,30 +1,30 @@
+import type * as Type from "./types";
 import css from "./merchant.module.css";
 
 type Props = {
-  index: number;
+  merchant: Type.Merchant;
 };
 
-export default function Merchant({ index }: Props) {
-  const log = () => {
-    console.log(index);
-  };
+export default function Merchant({ merchant }: Props) {
+  const stars = Array.from(
+    //@ts-ignore
+    { length: merchant.taxonomy?.stars ?? 0 },
+    () => "★"
+  ).join("");
+
   return (
-    <div className={css.outer} onClick={log}>
+    <div className={css.outer}>
+      {merchant.taxonomy?.category2 && (
+        <div className={css.label}>{merchant.taxonomy?.category2}</div>
+      )}
       <div className={css.image}>
-        <img src={`/images/${index}.jpg`} loading="lazy" alt="" />
+        {merchant.image && <img src={merchant.image} loading="lazy" alt="" />}
       </div>
       <div className={css.content}>
-        {index % 5 === 0 ? (
-          <>
-            <div>{index}</div>
-            <div>coucou</div>
-            <div>coucou</div>
-            <div>coucou</div>
-            <div>coucou</div>
-          </>
-        ) : (
-          index
-        )}
+        <div className={css.title}>{merchant.taxonomy?.category4}</div>
+        <div className={css.name}>
+          {merchant.name} <span className={css.stars}>{stars}</span>
+        </div>
       </div>
     </div>
   );

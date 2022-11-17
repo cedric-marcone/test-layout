@@ -1,12 +1,13 @@
 import * as React from "react";
 import Merchant from "./merchant";
+import type * as Type from "./types";
 import css from "./list.module.css";
 
 type Props = {
   dialog: boolean;
   narrow: boolean;
   toggleMap: (cover: boolean) => () => void;
-  merchants: number[];
+  merchants: Type.Merchants;
 };
 
 export default function List({ dialog, toggleMap, narrow, merchants }: Props) {
@@ -18,8 +19,8 @@ export default function List({ dialog, toggleMap, narrow, merchants }: Props) {
         </div>
       )}
       <div className={css.list}>
-        {merchants.map((merchant) => (
-          <Merchant key={merchant} index={merchant} />
+        {merchants.merchants.map((merchant) => (
+          <Merchant key={merchant.code} merchant={merchant} />
         ))}
       </div>
     </div>

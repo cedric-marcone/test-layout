@@ -3,11 +3,12 @@ import useSize from "@react-hook/size";
 import classNames from "classnames";
 import List from "./list";
 import Map from "./map";
+import type * as Type from "./types";
 import css from "./layout.module.css";
 
 type Props = {
   dialog?: boolean;
-  merchants: number[];
+  merchants: Type.Merchants;
 };
 
 export default function Layout({ dialog = false, merchants }: Props) {

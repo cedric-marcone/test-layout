@@ -17,7 +17,8 @@
   background-color: white;
 }
 .dialog {
-  height: 600px;
+  height: auto;
+  min-height: 80vh;
   max-height: stretch;
   flex: 1 1 auto;
   max-width: 1080px;
