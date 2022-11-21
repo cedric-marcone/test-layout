@@ -7,10 +7,10 @@ type Props = {
   dialog: boolean;
   narrow: boolean;
   toggleMap: (cover: boolean) => () => void;
-  merchants: Type.Merchants;
+  data: Type.Data;
 };
 
-export default function List({ dialog, toggleMap, narrow, merchants }: Props) {
+export default function List({ dialog, toggleMap, narrow, data }: Props) {
   return (
     <div className={css.outer}>
       {narrow && !dialog && (
@@ -19,8 +19,12 @@ export default function List({ dialog, toggleMap, narrow, merchants }: Props) {
         </div>
       )}
       <div className={css.list}>
-        {merchants.merchants.map((merchant) => (
-          <Merchant key={merchant.code} merchant={merchant} />
+        {data.merchants.map((merchant) => (
+          <Merchant
+            key={merchant.code}
+            merchant={merchant}
+            dictionary={data.dictionary}
+          />
         ))}
       </div>
     </div>

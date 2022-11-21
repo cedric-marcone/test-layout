@@ -7,11 +7,11 @@ import type * as Type from "./types";
 import css from "./layout.module.css";
 
 type Props = {
+  data: Type.Data;
   dialog?: boolean;
-  merchants: Type.Merchants;
 };
 
-export default function Layout({ dialog = false, merchants }: Props) {
+export default function Layout({ data, dialog = false }: Props) {
   const [, setCover] = React.useState(false);
   const outerRef = React.useRef<HTMLDivElement>(null);
   const mapRef = React.useRef<HTMLDivElement>(null);
@@ -44,7 +44,7 @@ export default function Layout({ dialog = false, merchants }: Props) {
         <List
           narrow={narrow}
           dialog={dialog}
-          merchants={merchants}
+          data={data}
           toggleMap={toggleMap}
         />
       </div>

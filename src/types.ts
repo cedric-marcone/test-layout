@@ -13,9 +13,11 @@ export type Dictionary = {
   values: Array<{ code: number | string; name: string }>;
 };
 
-export type Merchants = {
+export type Dictionaries = Record<string, Dictionary>;
+
+export type Data = {
   merchants: Merchant[];
-  dictionary: Record<string, Dictionary>;
+  dictionary: Dictionaries;
 };
 
 /*

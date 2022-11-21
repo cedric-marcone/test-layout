@@ -3,9 +3,10 @@ import css from "./merchant.module.css";
 
 type Props = {
   merchant: Type.Merchant;
+  dictionary: Type.Dictionaries;
 };
 
-export default function Merchant({ merchant }: Props) {
+export default function Merchant({ merchant, dictionary }: Props) {
   const stars = Array.from(
     //@ts-ignore
     { length: merchant.taxonomy?.stars ?? 0 },
