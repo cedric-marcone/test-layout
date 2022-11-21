@@ -1,0 +1,65 @@
+.outer {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  max-height: stretch;
+  user-select: none;
+  will-change: transform;
+  contain: layout paint size style;
+}
+.map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: beige;
+  filter: saturate(0.15) hue-rotate(100deg) contrast(1.2);
+}
+.dragBar {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 75px;
+  z-index: 2;
+  touch-action: none;
+  justify-content: center;
+}
+.drag {
+  width: 100px;
+  height: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  margin: 10px;
+  transition: background 320ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.dragBar:hover .drag {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.narrow {
+  height: 100vh;
+  max-height: stretch;
+}
+.narrow.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 10px 10px 0 0;
+}
+.narrow.dialog .dragBar {
+  display: flex;
+}
+
+.buttonBar {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  text-align: center;
+}

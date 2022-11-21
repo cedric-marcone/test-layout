@@ -1,6 +1,6 @@
 import * as React from "react";
 import classNames from "classnames";
-import Merchants from "./merchants";
+import Merchants from "./components/merchants";
 import css from "./widget.module.css";
 
 export default function Widget() {

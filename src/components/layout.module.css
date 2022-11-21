@@ -1,0 +1,30 @@
+.outer {
+  display: flex;
+  position: relative;
+  user-select: none;
+}
+.narrow {
+  display: block;
+}
+.outer.dialog {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: auto;
+}
+.list {
+  flex: 1;
+}
+.map {
+  flex: 1;
+  display: flex;
+}
+.map.dialog {
+  position: sticky;
+  top: 0;
+}
+.narrow .map.dialog {
+  position: static;
+}
