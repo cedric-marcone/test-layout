@@ -1,0 +1,44 @@
+{
+  "patches": [],
+  "merchants": [
+    {
+      "code": "CR-595-forfaits",
+      "slug": "forfaits-stfr",
+      "name": "Forfait de ski Sainte-Foy",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/CR-595-forfaits/thumb-467.jpg"
+      ],
+      "widget": "otherProducts",
+      "taxonomy": {
+        "category": "FORFAIT"
+      }
+    },
+    {
+      "code": "RM-287J",
+      "name": "RM Jaillet (Combloux)",
+      "images": [
+        "https://widget.msem.tech/images/tunnel/offers/offer_Lift_WINTER.jpg"
+      ],
+      "widget": "skiPass",
+      "taxonomy": {
+        "category": "FORFAIT"
+      }
+    },
+    {
+      "code": "RM-416",
+      "name": "RM Megève",
+      "images": [
+        "https://widget.msem.tech/images/tunnel/offers/offer_Lift_WINTER.jpg"
+      ],
+      "widget": "skiPass",
+      "taxonomy": {
+        "category": "FORFAIT"
+      }
+    }
+  ],
+  "dictionary": {
+    "category": {
+      "values": [{ "code": "FORFAIT", "name": "Forfait" }]
+    }
+  }
+}
