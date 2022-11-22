@@ -1,0 +1,308 @@
+{
+  "merchants": [
+    {
+      "code": "LM-125-01",
+      "name": "CONCEPT",
+      "slug": "concept-go-sport-montagne",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-01/thumb-43.jpg"
+      ],
+      "widget": "skiRental",
+      "location": [45.09007200660009, 6.076269747653015],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-02",
+      "slug": "alpesports",
+      "name": "Alpesports ",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-02/thumb-19.png"
+      ],
+      "widget": "skiRental",
+      "location": [45.09669024458238, 6.070213042636283],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-03",
+      "name": "Altitude Sports Vieil Alpe",
+      "slug": "altitude-sports-vieil-alpe-office-de-tourisme",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-03/thumb-247.png"
+      ],
+      "widget": "skiRental",
+      "location": [45.09055056084035, 6.0643429546789775],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-04",
+      "name": "Altitude Sports Eclose",
+      "slug": "altitude-sports-eclose",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-04/thumb-252.png"
+      ],
+      "widget": "skiRental",
+      "location": [45.08779278868817, 6.0678876830676245],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-05",
+      "name": "Cyril’s sport",
+      "slug": "cyril-s-sport",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-05/thumb-35.jpg"
+      ],
+      "widget": "skiRental",
+      "location": [45.08971256243304, 6.077004298694732],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-06",
+      "name": "LOUP SPORT",
+      "slug": "loup-sport",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-06/thumb-62.jpg"
+      ],
+      "widget": "skiRental",
+      "location": [45.09600816544582, 6.069542592143847],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "name": "HENRI SPORTS II - LES BERGERS",
+      "code": "LM-125-07",
+      "slug": "henri-sports-les-bergers",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-07/360_240/SKISET..png"
+      ],
+      "widget": "skiRental",
+      "location": [45.08987264095594, 6.075502019696046],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-08",
+      "name": "HENRI SPORTS I - ROND POINT DES PISTES",
+      "slug": "henri-sports-rond-point-des-pistes",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-08/360_240/SKISET..png"
+      ],
+      "widget": "skiRental",
+      "location": [45.09710195031167, 6.069880437589774],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-09",
+      "name": "HENRI SPORTS III - AVENUE DES JEUX",
+      "slug": "ab-centre-station",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-09/360_240/SKISET..png"
+      ],
+      "widget": "skiRental",
+      "location": [45.090701571573796, 6.067776749668127],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-10",
+      "name": "NETSKI LES BERGERS",
+      "slug": "netski-les-bergers",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-10/360_240/NETSKI.-2.PNG"
+      ],
+      "widget": "skiRental",
+      "location": [45.090225664908715, 6.0748343916015415],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-11",
+      "name": "HENRI SPORTS V - OFFICE DU TOURISME",
+      "slug": "ab-office-du-tourisme",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-11/360_240/SKISET..png"
+      ],
+      "widget": "skiRental",
+      "location": [45.0907845, 6.0650299],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-12",
+      "name": "HENRI SPORTS VI - CENTRE STATION",
+      "slug": "henri-centre-station",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-12/360_240/SKISET..png"
+      ],
+      "widget": "skiRental",
+      "location": [45.09340685652992, 6.0690408201293735],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-13",
+      "name": "HENRI SPORTS IV - L ECLOSE",
+      "slug": "henri-sports-l-eclose",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-13/360_240/SKISET..png"
+      ],
+      "widget": "skiRental",
+      "location": [45.08709485503716, 6.067855934657217],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "name": "Richard 3 Sports Ski Republic",
+      "code": "LM-125-14",
+      "slug": "richard-3-sports-ski-republic",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-14/thumb-74.png"
+      ],
+      "widget": "skiRental",
+      "location": [45.096828, 6.069593],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-15",
+      "name": "OLIVIER SPORT 2000 BY PREMIUM",
+      "slug": "olivier-sport-2000-by-premium",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-15/thumb-112.jpg"
+      ],
+      "widget": "skiRental",
+      "location": [45.09079574198998, 6.063404507261879],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-16",
+      "name": "OLIVIER SPORT 2000 By ZE SHOP",
+      "slug": "olivier-sport-2000-by-ze-shop",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-16/thumb-113.jpg"
+      ],
+      "widget": "skiRental",
+      "location": [45.09050911336278, 6.064892596954309],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-17",
+      "name": "OLIVIER SPORT 2000 By OURS BLANC",
+      "slug": "olivier-sport-2000-by-ours-blanc",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-17/thumb-115.jpg"
+      ],
+      "widget": "skiRental",
+      "location": [45.09087889589163, 6.0674875092450975],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-18",
+      "name": "OLIVIER SPORT 2000 By LES BERGERS",
+      "slug": "olivier-sport-2000-by-les-bergers",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-18/thumb-116.jpg"
+      ],
+      "widget": "skiRental",
+      "location": [45.08985087578964, 6.07639561220148],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-19",
+      "name": "OLIVIER SPORT 2000 By SIGNAL",
+      "slug": "olivier-sport-2000-by-signal",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-19/thumb-117.jpg"
+      ],
+      "widget": "skiRental",
+      "location": [45.093631843053885, 6.067650980443261],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-20",
+      "name": "Altitude Sports Rond Point des Pistes",
+      "slug": "altitude-sports-rond-point-des-pistes",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-20/thumb-254.png"
+      ],
+      "widget": "skiRental",
+      "location": [45.097116407265005, 6.070158793229325],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-21",
+      "name": "Jeannot Sports – Sport 2000",
+      "slug": "jeannot-sports-sport-2000",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-21/thumb-348.jpg"
+      ],
+      "widget": "skiRental",
+      "location": [45.09613433261648, 6.07046623303529],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-24",
+      "name": "Rocky Sports",
+      "slug": "rocky-sports-0",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-24/360_240/vignette.JPG"
+      ],
+      "widget": "skiRental",
+      "location": [45.08783385076506, 6.067799218654642],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    },
+    {
+      "code": "LM-125-26",
+      "name": "Altitude Sports - Les Bergers",
+      "slug": "altitude-sports-les-bergers-0",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/LM-125-26/360_240/Photo groupe-1.png"
+      ],
+      "widget": "skiRental",
+      "location": [45.089656104591676, 6.0766169276280095],
+      "taxonomy": {
+        "category": "SKI_RENTAL"
+      }
+    }
+  ],
+  "dictionary": {
+    "category": {
+      "values": [{ "code": "SKI_RENTAL", "name": "Location de matériel" }]
+    }
+  }
+}

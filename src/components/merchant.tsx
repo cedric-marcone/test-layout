@@ -13,6 +13,7 @@ export default function Merchant({ merchant, dictionary }: Props) {
     () => "★"
   ).join("");
 
+  console.log(merchant.name);
   return (
     <div className={css.outer}>
       {merchant.taxonomy?.category2 && (
@@ -24,7 +25,9 @@ export default function Merchant({ merchant, dictionary }: Props) {
         )}
       </div>
       <div className={css.content}>
-        <div className={css.title}>{merchant.taxonomy?.category4}</div>
+        {merchant.taxonomy?.category4 && (
+          <div className={css.title}>{merchant.taxonomy?.category4}</div>
+        )}
         <div className={css.name}>
           {merchant.name} <span className={css.stars}>{stars}</span>
         </div>

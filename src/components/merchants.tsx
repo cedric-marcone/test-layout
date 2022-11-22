@@ -26,5 +26,6 @@ export default function Merchants({ dialog }: Props) {
 
 async function fetchMerchants() {
   const response = await fetch("/mock/lodging.json");
+  // const response = await fetch("/mock/skiRental.json");
   return response.json() as Promise<Type.Data>;
 }
