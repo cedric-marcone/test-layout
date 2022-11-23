@@ -1,0 +1,71 @@
+{
+  "merchants": [
+    {
+      "code": "CR-125-PBERGERS",
+      "name": "Parking des Bergers Alpe d'Huez (Hauteur 2m05)",
+      "slug": "parking-des-bergers-alpe-d-huez-hauteur-2m05",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/CR-125-PBERGERS/thumb-480.jpg"
+      ],
+      "widget": "otherProducts",
+      "location": [48.0397226, 6.930371],
+      "taxonomy": {
+        "district": 6,
+        "category": "PARKING"
+      }
+    },
+    {
+      "code": "CR-125-PCOULET",
+      "name": "Parking du Coulet Alpe d'Huez (Hauteur : 2m)",
+      "slug": "parking-du-coulet-alpe-d-huez-hauteur-2m",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/CR-125-PCOULET/thumb-486.jpg"
+      ],
+      "widget": "otherProducts",
+      "location": [45.0919784, 6.0662669],
+      "taxonomy": {
+        "district": 10,
+        "category": "PARKING"
+      }
+    },
+    {
+      "code": "CR-125-PJEUX",
+      "name": "Parking des Jeux Alpe d'Huez (Hauteur : 1m80)",
+      "slug": "parking-des-jeux-hauteur-1m80",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/CR-125-PJEUX/thumb-485.jpg"
+      ],
+      "widget": "otherProducts",
+      "location": [45.09126980061189, 6.067877719265653],
+      "taxonomy": {
+        "district": 10,
+        "category": "PARKING"
+      }
+    },
+    {
+      "code": "CR-125-PRIFNEL",
+      "name": "Parking Rif-Nel Alpe d'Huez (Hauteur : 2m30)",
+      "slug": "parking-rif-nel-alpe-d-huez-hauteur-2m30",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/CR-125-PRIFNEL/thumb-482.jpg"
+      ],
+      "widget": "otherProducts",
+      "location": [45.09481116515342, 6.07094374828003],
+      "taxonomy": {
+        "category": "PARKING"
+      }
+    }
+  ],
+  "dictionary": {
+    "category": {
+      "values": [{ "code": "PARKING", "name": "Parking" }]
+    },
+    "districts": {
+      "name": "Secteur",
+      "values": [
+        { "code": 6, "name": "Bergers" },
+        { "code": 10, "name": "Jeux" }
+      ]
+    }
+  }
+}

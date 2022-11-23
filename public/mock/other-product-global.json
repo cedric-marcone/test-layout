@@ -1,0 +1,145 @@
+{
+  "merchants": [
+    {
+      "code": "AP-209-07",
+      "slug": "wedoogliss-0",
+      "name": "Wiidoogliss",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/AP-209-07/360_240/W.gliss-Hiver_DSC_5275.jpg"
+      ],
+      "widget": "otherProducts",
+      "location": [48.0397226, 6.930371],
+      "taxonomy": {
+        "category": "ACTIVITIES",
+        "category1": "MULTI-ACTIVITIES"
+      }
+    },
+    {
+      "code": "AP-209-09",
+      "slug": "gambaladons-0",
+      "name": "GAMBALADONS",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/AP-209-09/360_240/vignettes.png"
+      ],
+      "widget": "otherProducts",
+      "location": [47.9941157, 6.8558134],
+      "taxonomy": {
+        "category": "ACTIVITIES",
+        "category1": "MULTI-ACTIVITIES"
+      }
+    },
+    {
+      "code": "AP-209-01",
+      "slug": "courses-livrees",
+      "name": "Courses livrées La Bresse",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/AP-209-01/360_240/pasta-560657_1280.jpg"
+      ],
+      "widget": "otherProducts",
+      "location": [48.0066282, 6.8766915],
+      "taxonomy": {
+        "category": "FOOD_DELIVERY",
+        "category1": "FOOD_DELIVERY"
+      }
+    },
+    {
+      "code": "ALDPS-455-001",
+      "name": "Montagne Expériences Montgenèvre",
+      "images": ["https://services.msem.tech/images/logo/ALDPS-455-001"],
+      "marker": "MOUNTAIN_EXPERIENCE",
+      "widget": "vakario",
+      "taxonomy": {
+        "category": "ACTIVITIES",
+        "category1": "MULTI-ACTIVITIES"
+      }
+    },
+    {
+      "name": "AIR TARENTAISE",
+      "slug": "paradifly",
+      "code": "ET-142-105",
+      "images": ["https://services.msem.tech/images/logo/ET-142-105"],
+      "widget": "elloha",
+      "location": [43.27921, 5.38827],
+      "taxonomy": {
+        "category": "ACTIVITIES",
+        "category1": "MULTI-ACTIVITIES"
+      }
+    },
+    {
+      "name": "LAURENT OTTOBON - PARAPENTE",
+      "slug": "laurent-ottobon",
+      "code": "ET-659-104",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/ET-659-104/thumb-452.jpg"
+      ],
+      "widget": "otherProducts",
+      "location": [45.95535471663489, 6.763959593609627],
+      "taxonomy": {
+        "category": "ACTIVITIES",
+        "category1": "PARAPENTE"
+      }
+    },
+    {
+      "name": "HAPPY BIKE CAMP",
+      "slug": "happy-bike-camp",
+      "code": "ET-659-102",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/ET-659-102/thumb-454.png"
+      ],
+      "widget": "otherProducts",
+      "location": [45.4688207, 6.9039999],
+      "taxonomy": {
+        "category": "ACTIVITIES",
+        "category1": "VTT"
+      }
+    },
+    {
+      "code": "CR-125-PBERGERS",
+      "name": "Parking des Bergers Alpe d'Huez (Hauteur 2m05)",
+      "slug": "parking-des-bergers-alpe-d-huez-hauteur-2m05",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/CR-125-PBERGERS/thumb-480.jpg"
+      ],
+      "widget": "otherProducts",
+      "location": [48.0397226, 6.930371],
+      "taxonomy": {
+        "category": "PARKING",
+        "category1": "PARKING"
+      }
+    },
+    {
+      "code": "CR-125-WIFI",
+      "name": "Location mini box WIFI",
+      "slug": "location-mini-box-wifi",
+      "images": [
+        "https://phototheque.mon-sejour-en-montagne.com/images/other-products/CR-125-WIFI/thumb-481.jpg"
+      ],
+      "widget": "otherProducts",
+      "location": [45.09078797929027, 6.065029419630605],
+      "taxonomy": {
+        "category": "SERVICE_PLUS",
+        "category1": "SERVICE_PLUS"
+      }
+    }
+  ],
+  "dictionary": {
+    "category": {
+      "values": [
+        { "code": "ACTIVITIES", "name": "Activités" },
+        { "code": "FOOD_DELIVERY", "name": "Courses livrées" },
+        { "code": "PARKING", "name": "Parking" },
+        { "code": "SERVICE_PLUS", "name": "Services +" }
+      ]
+    },
+    "category1": {
+      "values": [
+        { "code": "MULTI-ACTIVITIES", "name": "Multi-activités" },
+        { "code": "PARAPENTE", "name": "Parapente" },
+        { "code": "VTT", "name": "VTT" },
+        { "code": "FOOD_DELIVERY", "name": "Courses livrées" },
+        { "code": "PARKING", "name": "Parking" },
+        { "code": "SERVICE_PLUS", "name": "Services +" }
+      ]
+    }
+  }
+}
